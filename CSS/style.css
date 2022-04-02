@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+
+.list>ul {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.alis-veris {
+  display: flex;
+  align-items: center;
+}
+
+.list>ul>li>a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none !important;
+  color: black;
+  font-size: 20px;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.list>ul>li>a:hover {
+  text-decoration: underline;
+}
+
+.culinary {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.culinary>h1 {
+  font-size: 64px;
+  line-height: 83.2px;
+  max-width: 475px;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  width: 100%;
+}
+
+.culinary>p {
+  font-family: "Open Sans", "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 80px;
+  line-height: 33px;
+}
+
+.sirniyyatlar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+}
+
+.sirniyyat {
+  width: 100%;
+  max-width: 570px;
+  padding: 15px;
+  /* border: 1px solid green; */
+}
+
+.sirniyyat>a>img {
+  width: 100%;
+}
+
+.text3 {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.text3>a {
+  text-decoration: none;
+}
+
+.text3>a>h3 {
+  font-size: 24px;
+  font-family: "Libre Vaskerville", "Times New Roman", Times, serif;
+  font-weight: 700;
+  line-height: 31.2px;
+  color: black;
+  word-spacing: 0px;
+}
+
+.text3>a>p {
+  font-family: "Open Sans", "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 20.8px;
+  color: gray;
+  margin: 8px 0px;
+}
+
+.text3>a>span {
+  font-family: "Open Sans", "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 20.8px;
+  color: gray;
+}
+
+.text3 {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 100%;
+}
+
+.text3>a {
+  text-decoration: none;
+}
+
+.text3>a>h3 {
+  font-size: 24px;
+  font-family: "Libre Vaskerville", "Times New Roman", Times, serif;
+  font-weight: 700;
+  line-height: 31.2px;
+  color: black;
+  word-spacing: 0px;
+}
+
+.text3>a>p {
+  font-family: "Open Sans", "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 20.8px;
+  color: gray;
+  margin: 8px 0px;
+}
+
+.text3>a>span {
+  font-family: "Open Sans", "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 20.8px;
+  color: gray;
+}
+
+.kecid-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.buttonkecid {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 21.6px;
+}
+
+.official {
+  background-color: rgb(242, 237, 235);
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.official>.text-img5>h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.official>.text-img5>p {
+  width: 100%;
+  font-size: 16px;
+  max-width: 365px;
+  margin-top: 20px;
+  word-spacing: 2px;
+}
+
+.ins {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.ins>h2 {
+  font-size: 40px;
+  word-spacing: 2px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.yemekler {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.yemek {
+  width: 100%;
+  padding: 10px;
+  max-width: 320px;
+}
+
+.yemek img {
+  width: 100%;
+}
+
+
+.footer {
+  background-color: rgb(232, 227, 225);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 100px;
+  padding: 20px;
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+.contain {
+  margin: 0 auto;
+}
+
+.footer>.contain>.div1 {
+  padding: 20px;
+}
+
+.footer>.contain>.div2 {
+  font-size: 22px;
+}
+
+.div2-form>form>input {
+  padding: 12px;
+  width: 300px;
+}
+
+.footer>.contain>.div1>h3 {
+  width: 100%;
+  color: #232323;
+  font-family: "Libre Vaskerville", "Times New Roman", Times, serif;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.button-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.button {
+  padding: 20px;
+  color: white;
+  background-color: #353535;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 21.6px;
+  width: 150px;
+}
+
+.icons {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.son-yazi>p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.menumobile {
+  display: none;
+}
+
+@media (max-width:570px) {
+  .menumobile {
+    display: block;
+  }
+
+  .list ul li {
+    display: none;
+  }
+
+  .list ul li:last-child {
+    display: block !important;
+  }
+
+  .nav {
+    width: 100% !important;
+  }
+
+  .svg a {
+    display: flex;
+    align-items: center;
+  }
+
+  .svg a img {
+    float: left;
+    margin-left: 10px;
+  }
+}
